@@ -55,7 +55,8 @@ end
 
 NArray = [50,100,250,500,1000];
 %%
-%QUESTION (1.)
+% First Evaluation Algorithm
+
 % NArray = [50,100,250,500,1000];
 
 M = 50; % Number of realizations
@@ -90,7 +91,7 @@ for realization = 1:1:M
 end
 
 %%
-% QUESTION (2.)
+% Second Evaluation Algorithm
 
 N = 100;
 MArray = [25,50,75,100];
@@ -130,7 +131,8 @@ end
 
 
 %%
-% QUESTION (3.)
+% Third Evaluation Algorithm
+
 M = 25;
 NArray = [50,100,250,500,1000];
 AArray = [0.01,0.1,1,5,10];
