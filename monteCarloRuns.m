@@ -57,7 +57,7 @@ NArray = [50,100,250,500,1000];
 %%
 %QUESTION (1.)
 % NArray = [50,100,250,500,1000];
-%{
+
 M = 50; % Number of realizations
 A = 1;
 % This matrix will hold all of the generated estimates across M
@@ -87,27 +87,11 @@ for realization = 1:1:M
         realizationMatrixColCounter = realizationMatrixColCounter + 1;
     end
 
-    %{
-    % Storing the 3 estimates for a given N
-    %   N1   N2    N3  N4
-    %A1 ~    ~      ~   ~
-    %A2 ~    ~      ~   ~
-    %A3 ~    ~      ~   ~
-
-    realizationsMatrix(1, realizationMatrixColCounter, realization) = A1;
-    realizationsMatrix(2, realizationMatrixColCounter, realization) = A2;
-    realizationsMatrix(3, realizationMatrixColCounter, realization) = A3;
-    % Incrementing the counter
-    realizationMatrixColCounter = realizationMatrixColCounter + 1;
-    %}
 end
-%}
-
-
 
 %%
 % QUESTION (2.)
-%{
+
 N = 100;
 MArray = [25,50,75,100];
 AArray = [0.01,0.1,1,5,10];
@@ -122,12 +106,7 @@ for mIndex = 1:1:size(MArray,2)
     varianceByRealizationMatrix = zeros(3, size(AArray,2),currentM);
     for runIndex = 1:1:currentM
         % varianceByRealizationMatrix = zeros(3, size(AArray,2),currentM);
-        % We will use all the A's
-        % realizationIndex = 1;
-        % Generating the random variables
-        %randomVariables = randomVarsGenerator()
-        aColumnIndex = 1;
-        % realizationIndex = realizationIndex + 1;
+        % We will use all the As
         for aIndex = 1:1:size(AArray,2)
             currentA = AArray(1,aIndex);
             % Generating the random variables
@@ -148,7 +127,7 @@ for mIndex = 1:1:size(MArray,2)
     end
     save(currentSaveName);
 end
-%}
+
 
 %%
 % QUESTION (3.)
