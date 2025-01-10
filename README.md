@@ -1,4 +1,4 @@
-<h1>Monte Carlo Simulations</h1>
+<h1>Judging the Efficiency of Estimators using Monte Carlo Simulations</h1>
 <h2> What is a Monte Carlo Simulation ?</h2>
 <p> The Monte Carlo simulation is a mathematical technique that predicts possible outcomes of an uncertain event.
   It is used to analyze past data to predict a range of future outcomes.
