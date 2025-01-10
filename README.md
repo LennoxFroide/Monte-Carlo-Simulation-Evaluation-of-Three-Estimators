@@ -17,5 +17,7 @@
 <p>The three estimators being evaluated are:</p>
 <h3>(1.) Sample Mean Estimator</h3>
 <p align="center"> <strong>A<sub>1 estimate</sub>=1/N Σ </sub>X<sub>n</sub> where n = 1,2,...,N</strong> </p>
-<h3>(1.) Sample Variance Estimator</h3>
+<h3>(2.) Sample Variance Estimator</h3>
 <p align="center">  <strong>A<sub>2 estimate</sub> = 1/(N-1) Σ (X<sub>n</sub> - A<sub>1 estimate</sub> ) where n = 1,2,...,N</p></strong>
+<h3>(3.) Test Estimator</h3>
+<p align = "center">  <strong>  A<sub>3 estimate</sub> = (-1)⁄2+√(1/N Σ ( (X<sub>n</sub>)^2  + 1/4  ))</strong></p>
