@@ -15,3 +15,5 @@
 <p> where Wn are i.i.d, independent identically distributed, Gaussian random variables with a mean of 0 and a variance of A.</p>
 <p>These samples are observed for observation windows of size n, where n = 1,2,...,N and the estimators make a prdiction based on these samples.</p>
 <p>The three estimators being evaluated are:</p>
+<h3>(1.) Sample Mean Estimator</h3>
+<p></p>
