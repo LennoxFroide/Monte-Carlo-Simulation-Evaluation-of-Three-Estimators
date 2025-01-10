@@ -16,4 +16,4 @@
 <p>These samples are observed for observation windows of size n, where n = 1,2,...,N and the estimators make a prdiction based on these samples.</p>
 <p>The three estimators being evaluated are:</p>
 <h3>(1.) Sample Mean Estimator</h3>
-<p align="center"> <strong>A ̂=1/N ∑_(n=1)^N▒X_n</strong> </p>
+<p align="center"> <strong>A ̂=1/N ∑<sub>(n=1)</sub>sub><sup>N</sup>X_n</strong> </p>
