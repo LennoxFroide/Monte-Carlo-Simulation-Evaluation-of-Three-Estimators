@@ -26,3 +26,4 @@
 the mean and the variance both the Sample Mean Estimator and the Sample Variance Estimator are valid. We therefore have to evaluate the 
 Test Estimator to check whether it is also an effective estimator.</p>
 <p>The results of the Monte Carlo simulations using varying values of N are presented and discussed in this paper:</p>
+<p align="center"><a href="https://drive.google.com/file/d/1V60R5k1tzcOSemsl-SYUSmnPXGOdgx3H/view?usp=drive_link">Analyzing the Efficiency of Estimators Using Monte Carlo Simulations.</a></p>
