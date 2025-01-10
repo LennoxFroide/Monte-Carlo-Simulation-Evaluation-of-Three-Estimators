@@ -10,7 +10,7 @@
 </p>
 <p>The predictions are made by taking samples of a discrete-time random process of the form:</p>
 <p align="center">
-                          <strong>X<sub>n</sub> = A + W<sub>n</sub>,</strong>
+                          <strong>X<sub>n</sub> = A + W<sub>n</sub></strong>,
 </p>
 <p> where Wn are i.i.d, independent identically distributed, Gaussian random variables with a mean of 0 and a variance of A.</p>
 <p>These samples are observed for observation windows of size n, where n = 1,2,...,N and the estimators make a prdiction based on these samples.</p>
