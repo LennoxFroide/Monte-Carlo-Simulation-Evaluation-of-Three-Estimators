@@ -8,3 +8,7 @@
   Such inputs include the random variables of a random process such as a Gaussian random process. For this project a Monte Carlo simulation was used to evaluate
   the performance of three estimators: a sample mean estimator, a sample variance estimator and a test estimator.
 </p>
+<p>The predictions are made by taking samples of a discrete-time random process of the form:</p>
+<p>
+            x_n=A+w_n
+</p>
