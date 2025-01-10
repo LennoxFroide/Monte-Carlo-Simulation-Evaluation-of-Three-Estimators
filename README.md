@@ -5,5 +5,6 @@
 </p>
 <h2>Monte Carlo Simulation within the Scope of the Project</h2>
   The Monte Carlo simulation is of particularly great use in problems concerning inputs that are stochatic in nature. 
-  Such inputs include the random variables of a random process such as a Gaussian random process. For this project a Monte Carlo simulation was used to.
+  Such inputs include the random variables of a random process such as a Gaussian random process. For this project a Monte Carlo simulation was used to evaluate
+  the performance of three estimators: a sample mean estimator, a sample variance estimator and a test estimator.
 </p>
