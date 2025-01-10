@@ -10,5 +10,6 @@
 </p>
 <p>The predictions are made by taking samples of a discrete-time random process of the form:</p>
 <p>
-            x_n=A+w_n
+                          Xn = A + Wn,
 </p>
+<p> where Wn are i.i.d, independent identically distributed, Gaussian random variables with a mean of 0 and a variance of A.</p>
