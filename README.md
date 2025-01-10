@@ -18,4 +18,4 @@
 <h3>(1.) Sample Mean Estimator</h3>
 <p align="center"> <strong>A<sub>1 estimate</sub>=1/N ∑<sup>N</sup><sub>n=1</sub>X<sub>n</sub></strong> </p>
 <h3>(1.) Sample Variance Estimator</h3>
-<p alig="center">  A<sub>2</sub> = 1/(N-1) ΣCx<sub>n</sub> - A<sub>1 estimate</sub></p>
+<p align="center">  A<sub>2</sub> = 1/(N-1) Σ(X<sub>n</sub> - A<sub>1 estimate</sub>)</p>
