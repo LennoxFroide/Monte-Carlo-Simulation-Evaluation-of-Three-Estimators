@@ -21,3 +21,7 @@
 <p align="center">  <strong>A<sub>2 estimate</sub> = 1/(N-1) Σ (X<sub>n</sub> - A<sub>1 estimate</sub> )      where n = 1,2,...,N</p></strong>
 <h3>(3.) Test Estimator</h3>
 <p align = "center">  <strong>A<sub>3 estimate</sub> = -1⁄2 + √(1/N Σ ( (X<sub>n</sub>)^2  + 1/4  ))      where n = 1,2,...,N</strong></p>
+
+<p>From the Central Limit Theorem we know that <strong>A<sub>1 estimate</sub></strong> will concentrate around A, the mean. Since A is both
+the mean and the variance both the Sample Mean Estimator and the Sample Variance Estimator are valid. We therefore have to evaluate the 
+Test Estimator to check whether it is also an effective estimator.</p>
