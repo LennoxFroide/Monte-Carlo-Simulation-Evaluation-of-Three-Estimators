@@ -49,7 +49,7 @@ secndEst1000 = realizationsMatrix(2,5,:);
 thirdEst1000 = realizationsMatrix(3,5,:);
 
 %%
-%{
+
 % MEANS
 % N is 50
 Mean50FirstEst = mean(firstEst50(:));
@@ -77,7 +77,7 @@ estTwoValues = [Mean50SecondEst, Mean100SecondEst, Mean250SecondEst, Mean500Seco
 extThreeValues = [Mean50ThirdEst, Mean100ThirdEst, Mean250ThirdEst, Mean500ThirdEst, Mean1000ThirdEst];
 % Joint Means
 EstimatesMeansQ1 = [estOneValues;estTwoValues;extThreeValues];
-%}
+
 %%
 
 % VARIANCE
@@ -106,6 +106,7 @@ estOneValues = [Var50FirstEst, Var100FirstEst, Var250FirstEst, Var500FirstEst, V
 estTwoValues = [Var50SecondEst, Var100SecondEst, Var250SecondEst, Var500SecondEst, Var1000SecondEst];
 estThreeValues = [Var50ThirdEst, Var100ThirdEst, Var250ThirdEst, Var500ThirdEst, Var1000ThirdEst];
 EstimateVarsQ1 = [estOneValues; estTwoValues; estThreeValues];
+
 %%
 % HISTOGRAMS
 % N is 50
@@ -175,7 +176,7 @@ varArrayEstThree100M = [estOneAOne25Var, estOneATwo25Var, estOneAThree25Var, est
     For each of the A values we will get the mean and variance.
 %}
 
-%{
+
 aTwoN50 = varianceByRealizationMatrix(3,1,:);
 aTwoN100 = varianceByRealizationMatrix(3,2,:);
 aTwoN250 = varianceByRealizationMatrix(3,3,:);
@@ -196,7 +197,7 @@ aOneN1000Var = var(aTwoN1000(:));
 
 thirdEstAFiveMeans = [aOneN50Mean, aOneN100Mean, aOneN250Mean, aOneN500Mean, aOneN1000Mean];
 thirdEstAFiveVars = [aOneN50Var, aOneN100Var, aOneN250Var, aOneN500Var, aOneN1000Var];
-%}
+
 %aFiveMeansQ3 = [aOneN50Mean, aOneN100Mean, aOneN250Mean, aOneN500Mean, aOneN1000Mean];
 %aFiveVarQ3 = [aOneN50Var, aOneN100Var, aOneN250Var, aOneN500Var, aOneN1000Var];
 
